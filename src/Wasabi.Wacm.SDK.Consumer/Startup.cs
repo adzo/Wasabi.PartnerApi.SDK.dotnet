@@ -33,7 +33,14 @@ namespace Wasabi.Wacm.SDK.Consumer
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Wasabi.Wacm.SDK.Consumer", Version = "v1" });
             });
 
-            services.AddWacm(new WacmOptions { ApiKey = "23f90cdf65316a5ac9d94562789db661", IsProductionEnvironement = false});
+            var wacmOptions = new WacmOptions
+            {
+                ApiKey = Configuration.GetValue<string>("WacmOptions:ApiKey"),
+                IsProductionEnvironement = Configuration.GetValue<bool>("WacmOptions:IsProductionEnvironement"),
+                WacmVersion = (WacmVersions)Configuration.GetValue<int>("WacmOptions:WacmVersion")
+            };
+
+            services.AddWacm(wacmOptions);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

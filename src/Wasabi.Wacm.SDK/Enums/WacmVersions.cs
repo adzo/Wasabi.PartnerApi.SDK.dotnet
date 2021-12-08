@@ -2,6 +2,6 @@
 {
     public enum WacmVersions
     {
-        VERSION_1
+        VERSION_1 = 1
     }
 }

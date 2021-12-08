@@ -1,6 +1,7 @@
 ﻿
 using System;
 using Wasabi.Wacm.SDK;
+using Wasabi.Wacm.SDK.Abstractions.Internals;
 using Wasabi.Wacm.SDK.Configuration;
 using Wasabi.Wacm.SDK.Exceptions;
 using Wasabi.Wacm.SDK.Http;
@@ -25,6 +26,7 @@ namespace Microsoft.Extensions.DependencyInjection
             WacmContext.Options = options; 
 
             services.AddScoped<Wasabi.Wacm.SDK.Http.IHttpClientBuilder, HttpClientBuilder>();
+            services.AddScoped<IEndpointsFactory, EndpointsFactory>();
             services.AddScoped<IAccountManager, AccountManager>();
         }
     }
