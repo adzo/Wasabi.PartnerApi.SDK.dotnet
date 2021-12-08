@@ -1,0 +1,12 @@
+D:\WORKSPACE\GitRepositories\Wasabi_WACM_SDK\Wasabi.Wacm.SDK\Wasabi.Wacm.SDK\bin\Debug\net5.0\Wasabi.Wacm.SDK.deps.json
+D:\WORKSPACE\GitRepositories\Wasabi_WACM_SDK\Wasabi.Wacm.SDK\Wasabi.Wacm.SDK\bin\Debug\net5.0\Wasabi.Wacm.SDK.dll
+D:\WORKSPACE\GitRepositories\Wasabi_WACM_SDK\Wasabi.Wacm.SDK\Wasabi.Wacm.SDK\bin\Debug\net5.0\ref\Wasabi.Wacm.SDK.dll
+D:\WORKSPACE\GitRepositories\Wasabi_WACM_SDK\Wasabi.Wacm.SDK\Wasabi.Wacm.SDK\bin\Debug\net5.0\Wasabi.Wacm.SDK.pdb
+D:\WORKSPACE\GitRepositories\Wasabi_WACM_SDK\Wasabi.Wacm.SDK\Wasabi.Wacm.SDK\obj\Debug\net5.0\Wasabi.Wacm.SDK.csprojAssemblyReference.cache
+D:\WORKSPACE\GitRepositories\Wasabi_WACM_SDK\Wasabi.Wacm.SDK\Wasabi.Wacm.SDK\obj\Debug\net5.0\Wasabi.Wacm.SDK.GeneratedMSBuildEditorConfig.editorconfig
+D:\WORKSPACE\GitRepositories\Wasabi_WACM_SDK\Wasabi.Wacm.SDK\Wasabi.Wacm.SDK\obj\Debug\net5.0\Wasabi.Wacm.SDK.AssemblyInfoInputs.cache
+D:\WORKSPACE\GitRepositories\Wasabi_WACM_SDK\Wasabi.Wacm.SDK\Wasabi.Wacm.SDK\obj\Debug\net5.0\Wasabi.Wacm.SDK.AssemblyInfo.cs
+D:\WORKSPACE\GitRepositories\Wasabi_WACM_SDK\Wasabi.Wacm.SDK\Wasabi.Wacm.SDK\obj\Debug\net5.0\Wasabi.Wacm.SDK.csproj.CoreCompileInputs.cache
+D:\WORKSPACE\GitRepositories\Wasabi_WACM_SDK\Wasabi.Wacm.SDK\Wasabi.Wacm.SDK\obj\Debug\net5.0\Wasabi.Wacm.SDK.dll
+D:\WORKSPACE\GitRepositories\Wasabi_WACM_SDK\Wasabi.Wacm.SDK\Wasabi.Wacm.SDK\obj\Debug\net5.0\ref\Wasabi.Wacm.SDK.dll
+D:\WORKSPACE\GitRepositories\Wasabi_WACM_SDK\Wasabi.Wacm.SDK\Wasabi.Wacm.SDK\obj\Debug\net5.0\Wasabi.Wacm.SDK.pdb
