@@ -1,1 +1,1 @@
-# Wasabi.Wacm.SDK.dotnet
+# Wasabi.PartnerApi.SDK.dotnet
