@@ -12,7 +12,7 @@ This solution contains two projects:
 - Wasabi.PartnerApi.SDK
 - Wasabi.PartnerApi.SDK.Consumer
 
-## Wasabi.PartnerApi.SDK.Consumer
+## Wasabi.PartnerApi.SDK.Consumer 
 
 This is a simple Web Api project to demonstrate the use of the SDK. I went with this type of project since it's simple to create and has swagger enabled to provide us with a GUI ready to use to invoke the several endpoints (PartnerApi.SDK methods calls).
 
@@ -75,3 +75,17 @@ PartnerApiVersion: needs to be set for 1 (version 1) to reach the v1 endpoints o
         }
     }
 ```
+
+## Wasabi.PartnerApi.SDK
+
+### Model classes
+
+1. Accounts
+    - AccountModel
+    - CreateAccountRequest
+    - CreateAccountResponse
+    - ListAccountsResponse : List<AccountModel>
+    - UpdateAccountRequest
+    - UpdateAccountResponse
+2. Utilization
+3. Invoicing
