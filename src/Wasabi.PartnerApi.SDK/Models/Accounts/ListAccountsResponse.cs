@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Wasabi.PartnerApi.SDK
 {
-    public class ListAccountsResponse: List<Account>
+    public class ListAccountsResponse: List<AccountModel>
     {
          
     }

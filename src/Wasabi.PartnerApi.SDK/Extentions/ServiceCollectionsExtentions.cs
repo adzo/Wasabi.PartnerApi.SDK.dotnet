@@ -27,7 +27,9 @@ namespace Microsoft.Extensions.DependencyInjection
 
             services.AddScoped<Wasabi.PartnerApi.SDK.Http.IHttpClientBuilder, HttpClientBuilder>();
             services.AddScoped<IEndpointsFactory, EndpointsFactory>();
-            services.AddScoped<IAccountManager, AccountManager>();
+            services.AddScoped<IAccountService, AccountService>();
+            services.AddScoped<IInvoicingService, InvoicingService>();
+            services.AddScoped<IUtilizationService, UtilizationService>();
         }
     }
 }

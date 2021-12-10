@@ -2,7 +2,7 @@
 
 namespace Wasabi.PartnerApi.SDK
 {
-    public class Account
+    public class AccountModel
     {
         public int AcctNum { get; set; }
         public string AcctName { get; set; }

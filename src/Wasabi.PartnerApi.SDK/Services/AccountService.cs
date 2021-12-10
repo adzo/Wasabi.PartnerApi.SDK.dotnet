@@ -8,12 +8,12 @@ using Wasabi.PartnerApi.SDK.Http;
 
 namespace Wasabi.PartnerApi.SDK.Services
 {
-    internal sealed class AccountManager : IAccountManager
+    internal sealed class AccountService : IAccountService
     {
         private readonly IHttpClientBuilder _httpClientBuilder;
         private readonly IEndpointsFactory _endpointsFactory;
 
-        public AccountManager(IHttpClientBuilder httpClientBuilder, IEndpointsFactory endpointsFactory)
+        public AccountService(IHttpClientBuilder httpClientBuilder, IEndpointsFactory endpointsFactory)
         {
             _httpClientBuilder = httpClientBuilder;
             _endpointsFactory = endpointsFactory;

@@ -3,7 +3,7 @@ using Wasabi.PartnerApi.SDK.Configuration;
 
 namespace Wasabi.PartnerApi.SDK
 {
-    public interface IAccountManager
+    public interface IAccountService
     {
         public Task<CreateAccountResponse> CreateAccountAsync(CreateAccountRequest request);
         public Task<ListAccountsResponse> ListAccountsAsync();

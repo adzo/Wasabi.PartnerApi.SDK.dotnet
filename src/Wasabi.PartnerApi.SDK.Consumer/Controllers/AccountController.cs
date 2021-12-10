@@ -7,9 +7,9 @@ namespace Wasabi.PartnerApi.SDK.Consumer.Controllers
     [Route("[controller]")]
     public class AccountController: ControllerBase
     {
-        private readonly IAccountManager _accountManager;
+        private readonly IAccountService _accountManager;
 
-        public AccountController(IAccountManager accountManager)
+        public AccountController(IAccountService accountManager)
         {
             _accountManager = accountManager;
         }
