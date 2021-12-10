@@ -2,7 +2,7 @@
 
 This package can be used for connection to the partner API. It provides service interfaces for account management, utilizations and invoicing:
 
-- IAccountManager
+- IAccountService
 - IUtilizationService
 - IInvoicingService
 
